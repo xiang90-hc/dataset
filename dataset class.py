@@ -22,9 +22,5 @@ class DataSet:
         return self.dataset[self.covariates]
 
     def get_covariate(self):
-        index = list(self.dataset)
-        for variables in self.target_var:
-            index.remove(variables)
-
-        return self.dataset[index]
+        return self.dataset[self.covariates]
 
