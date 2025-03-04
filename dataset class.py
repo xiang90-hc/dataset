@@ -20,7 +20,3 @@ class DataSet:
 
     def get_covariate(self):
         return self.dataset[self.covariates]
-
-    def get_covariate(self):
-        return self.dataset[self.covariates]
-
